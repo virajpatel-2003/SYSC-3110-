@@ -17,6 +17,11 @@ public class AddressBook
         lst.remove(obj);
     }
 
+    void removeAll() {
+        ArrayList<BuddyInfo> lst2 = new ArrayList<BuddyInfo>();
+        lst = lst2;
+    }
+
     public static void main(String[] args){
 
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
